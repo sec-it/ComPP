@@ -1,12 +1,12 @@
-<img src="static/logo.png" alt="compp" width="675px">
+<img src="static/logo.png" alt="ComPP" width="300px">
 
 # ComPP - Company Passwords Profiler
 
 ![Build](https://img.shields.io/badge/Built%20with-Python3-Blue)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/sec-it/compp)
-[![GitHub forks](https://img.shields.io/github/forks/sec-it/compp)](https://github.com/sec-it/compp/network)
-[![GitHub stars](https://img.shields.io/github/stars/sec-it/compp)](https://github.com/sec-it/compp/stargazers)
-[![GitHub license](https://img.shields.io/github/license/sec-it/compp)](https://github.com/sec-it/compp/blob/master/LICENSE.txt)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/sec-it/ComPP)
+[![GitHub forks](https://img.shields.io/github/forks/sec-it/ComPP)](https://github.com/sec-it/ComPP/network)
+[![GitHub stars](https://img.shields.io/github/stars/sec-it/ComPP)](https://github.com/sec-it/ComPP/stargazers)
+[![GitHub license](https://img.shields.io/github/license/sec-it/ComPP)](https://github.com/sec-it/ComPP/blob/master/LICENSE.txt)
 
 Company Passwords Profiler (aka ComPP) helps making a bruteforce wordlist for a targeted company.
 
@@ -22,7 +22,7 @@ Note: If you have time to perform OSINT research against the targeted users, you
 
 ## Install ⚙️
 
-<img src="static/install.png" alt="Install" width="675px">
+<img src="static/install.png" alt="Install" width="200px">
 
 ## Inputs 🔡
 
