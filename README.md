@@ -10,6 +10,37 @@
 
 Company Passwords Profiler (aka ComPP) helps making a bruteforce wordlist for a targeted company.
 
+```text
+
+ ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄███████▄    ▄███████▄ 
+███     ██ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███   ███    ███ 
+███    █▀  ██     ███ ███   ███   ██    ███    ███    ██    ███ 
+███        ███    ███ ███   ███   ███   ███    ███   ███    ███ 
+███        ███     ██ ███   ███   ███ ▀█████████▀  ▀█████████▀  
+██     █▄  ███    ███ ███   ███   ███   ███          ███        
+███    ███ ███    ███ ███    ██   ███   ██           ██         
+ ███████▀   ▀██████▀   ▀█   ███   █▀   ▄████▀       ▄████▀  :)    
+
+usage: ComPP [-h] [-p PERMUTATIONS] [-c CONFIG] [-l] [-n] [-o OUTPUT] [-v] [input_file]
+
+Company Passwords Profiler (ComPP)
+
+positional arguments:
+  input_file            company.json input file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PERMUTATIONS, --permutations PERMUTATIONS
+                        Number of permutations
+  -c CONFIG, --config CONFIG
+                        Configuration file
+  -l, --leet            Add 1337 passwords transformation
+  -n, --numbers         Add numbers to password.
+  -o OUTPUT, --output OUTPUT
+                        Directs the output to a file of your choice
+  -v, --version         Show the version of this program
+```
+
 ## What ❓
 
 The tool responds to a need to generate wordlists **quickly** with **few inputs**. The generated passwords will contain generic company informations with transformation such as `APPNAME2019!` or `Company75000$`.
@@ -22,7 +53,19 @@ Note: If you have time to perform OSINT research against the targeted users, you
 
 ## Install ⚙️
 
-<img src="static/install.png" alt="Install" width="200px">
+With PIP from PyPI packages :
+
+```bash
+pip install ComPP
+```
+
+With python from GitHub repository :
+
+```bash
+git clone git@github.com:sec-it/ComPP.git
+cd ComPP
+python setup.py install
+```
 
 ## Inputs 🔡
 
@@ -30,11 +73,25 @@ User inputs can either be filled in the interactive prompt or through a json fil
 
 ```text
 $ ComPP
+
+ ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄███████▄    ▄███████▄ 
+███     ██ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███   ███    ███ 
+███    █▀  ██     ███ ███   ███   ██    ███    ███    ██    ███ 
+███        ███    ███ ███   ███   ███   ███    ███   ███    ███ 
+███        ███     ██ ███   ███   ███ ▀█████████▀  ▀█████████▀  
+██     █▄  ███    ███ ███   ███   ███   ███          ███        
+███    ███ ███    ███ ███    ██   ███   ██           ██         
+ ███████▀   ▀██████▀   ▀█   ███   █▀   ▄████▀       ▄████▀  :)    
+
+Fill the differents inputs (case insensitive). Leave blank for unknow fields.
+
+[+] Enter company/application names (comma separated): Company,Comp
+[+] Enter company zip codes (comma separated): 75,75000
+[+] Enter company cities names (comma separated): Paris
+[+] Useful keywords (comma separated): Appname
 ```
 
-<img src="static/compp.png" alt="Install" width="675px">
-
-or
+*Or*
 
 ```text
 $ ComPP example.json
@@ -45,10 +102,18 @@ $ ComPP example.json
 Output size may vary with the provided options. Here is a preview of what you can expect with the default options:
 
 ```text
+75#Appname
+75000%company
+Appname1995?
 appname$
+appname1995+
 CompParis2000
 Company75000!
 COMPANYAPPNAME2019#
+PARISCOMP!
+ParisCompany2021_
+Paris75000@
+...
 ```
 
 ## What are the proposed transformations ?
