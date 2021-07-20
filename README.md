@@ -48,7 +48,7 @@ The main use of the generated wordlist is with **remote bruteforce and password 
 
 This tool aims to replace [CeWL](https://github.com/digininja/CeWL) because web scrapping is not be the most efficient way to generate a wordlist.
 
-Note: If you have time to perform OSINT research against the targeted users, you may use tools such as [CUPP](https://github.com/Mebus/cupp) or [BEWGor](https://github.com/berzerk0/BEWGor) to **complete** your wordlist.
+> Note: If you have time to perform OSINT research against the targeted users, you may use tools such as [CUPP](https://github.com/Mebus/cupp) or [BEWGor](https://github.com/berzerk0/BEWGor) to **complete** your wordlist.
 
 ## Install ⚙️
 
