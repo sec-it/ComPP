@@ -5,7 +5,7 @@
 ![Build](https://img.shields.io/badge/Built%20with-Python3-Blue)
 [![GitHub forks](https://img.shields.io/github/forks/sec-it/ComPP)](https://github.com/sec-it/ComPP/network)
 [![GitHub stars](https://img.shields.io/github/stars/sec-it/ComPP)](https://github.com/sec-it/ComPP/stargazers)
-[![GitHub license](https://img.shields.io/github/license/sec-it/ComPP)](https://github.com/sec-it/ComPP/blob/master/LICENSE.txt)
+[![GitHub](https://img.shields.io/github/license/sec-it/ComPP)](https://github.com/sec-it/ComPP/blob/master/LICENSE)
 
 Company Passwords Profiler (aka ComPP) helps making a bruteforce wordlist for a targeted company.
 
