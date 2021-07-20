@@ -34,7 +34,7 @@ optional arguments:
   -c CONFIG, --config CONFIG
                         Configuration file
   -l, --leet            Add 1337 passwords transformation
-  -n, --numbers         Add numbers to password.
+  -n, --numbers         Add numbers to password
   -o OUTPUT, --output OUTPUT
                         Directs the output to a file of your choice
   -v, --version         Show the version of this program

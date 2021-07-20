@@ -180,7 +180,7 @@ def get_parser():
                            help="Add 1337 passwords transformation")
 
     parser.add_argument("-n", "--numbers", action="store_true",
-                        help="Add numbers to password.")
+                        help="Add numbers to password")
 
     parser.add_argument("-o", "--output", 
                         help="Directs the output to a file of your choice")
