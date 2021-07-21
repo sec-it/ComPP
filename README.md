@@ -24,7 +24,7 @@ Company Passwords Profiler (aka ComPP) helps making a bruteforce wordlist for a 
 ███    ███ ███    ███ ███    ██   ███   ██           ██         
  ███████▀   ▀██████▀   ▀█   ███   █▀   ▄████▀       ▄████▀  :)    
 
-usage: ComPP [-h] [-p PERMUTATIONS] [-c CONFIG] [-l] [-n] [-o OUTPUT] [-v] [input_file]
+usage: compp [-h] [-p PERMUTATIONS] [-c CONFIG] [-l] [-n] [-o OUTPUT] [-v] [input_file]
 
 Company Passwords Profiler (ComPP)
 
@@ -75,7 +75,7 @@ python setup.py install
 User inputs can either be filled in the interactive prompt or through a json file. If an input is unknown to the user, it suffices to leave the field empty in order to go to the next field. Here is the full program prompt:
 
 ```text
-$ ComPP
+$ compp
 
  ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄███████▄    ▄███████▄ 
 ███     ██ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███   ███    ███ 
@@ -97,7 +97,7 @@ Fill the differents inputs (case insensitive). Leave blank for unknow fields.
 *Or*
 
 ```text
-$ ComPP example.json
+$ compp example.json
 ```
 
 ## Outputs
