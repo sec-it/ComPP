@@ -8,8 +8,6 @@
 [![GitHub](https://img.shields.io/github/license/sec-it/ComPP)](https://github.com/sec-it/ComPP/blob/master/LICENSE)
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ComPP)
-[![PyPI](https://img.shields.io/pypi/v/ComPP)](https://pypi.org/project/ComPP/)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/sec-it/ComPP)](https://github.com/sec-it/ComPP/tags)
 
 Company Passwords Profiler (aka ComPP) helps making a bruteforce wordlist for a targeted company.
 
@@ -58,17 +56,23 @@ This tool aims to replace [CeWL](https://github.com/digininja/CeWL) because web 
 
 On BlackArch :
 
+[![BlackArch package](https://repology.org/badge/version-for-repo/blackarch/compp.svg)](https://repology.org/project/compp/versions)
+
 ```
 sudo pacman -Syu compp
 ```
 
 With PIP from PyPI packages :
 
+[![PyPI](https://img.shields.io/pypi/v/ComPP)](https://pypi.org/project/ComPP/)
+
 ```bash
 pip install ComPP
 ```
 
 With python from GitHub repository :
+
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/sec-it/ComPP)](https://github.com/sec-it/ComPP/tags)
 
 ```bash
 git clone git@github.com:sec-it/ComPP.git
