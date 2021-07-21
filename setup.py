@@ -5,7 +5,7 @@ setuptools.setup(
     version='1.0.2',
     author="Zeecka",
     packages=["ComPP"],
-    scripts=["bin/ComPP"],
+    scripts=["bin/compp"],
     install_requires=["argparse", "colorama"],
     license='MIT License',
     long_description=open('README.md').read(),
