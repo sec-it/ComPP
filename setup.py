@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='ComPP',
-    version='1.0.3',
+    version='1.0.4',
     author="Zeecka",
     packages=["ComPP"],
     scripts=["bin/compp"],
