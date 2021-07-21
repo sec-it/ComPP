@@ -56,6 +56,12 @@ This tool aims to replace [CeWL](https://github.com/digininja/CeWL) because web 
 
 ## Install ⚙️
 
+On BlackArch :
+
+```
+sudo pacman -Syu compp
+```
+
 With PIP from PyPI packages :
 
 ```bash
