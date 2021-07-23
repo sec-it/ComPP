@@ -21,6 +21,8 @@ Company Passwords Profiler (aka ComPP) helps making a bruteforce wordlist for a 
 ██     █▄  ███    ███ ███   ███   ███   ███          ███        
 ███    ███ ███    ███ ███    ██   ███   ██           ██         
  ███████▀   ▀██████▀   ▀█   ███   █▀   ▄████▀       ▄████▀  :)    
+ 
+Version : 1.0.5  
 
 usage: compp [-h] [-p PERMUTATIONS] [-c CONFIG] [-l] [-n] [-o OUTPUT] [-v] [input_file]
 
@@ -95,6 +97,8 @@ $ compp
 ██     █▄  ███    ███ ███   ███   ███   ███          ███        
 ███    ███ ███    ███ ███    ██   ███   ██           ██         
  ███████▀   ▀██████▀   ▀█   ███   █▀   ▄████▀       ▄████▀  :)    
+ 
+Version : 1.0.5  
 
 Fill the differents inputs (case insensitive). Leave blank for unknow fields.
 
