@@ -3,7 +3,7 @@
 
 __author__ = "Alex Garrido"
 __copyright__ = "Copyright 2021, SEC-IT"
-__version__ = "1.0.0"
+__version__ = "1.0.5"
 __maintainer__ = "Alex GARRIDO"
 
 """Company Passwords Profiler (ComPP)"""
@@ -16,7 +16,7 @@ import sys
 from colorama import init, Fore, Back, Style
 
 def print_header():
-    c = """
+    c = f"""
  ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄███████▄    ▄███████▄ 
 ███     ██ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███   ███    ███ 
 ███    █▀  ██     ███ ███   ███   ██    ███    ███    ██    ███ 
@@ -24,9 +24,11 @@ def print_header():
 ███        ███     ██ ███   ███   ███ ▀█████████▀  ▀█████████▀  
 ██     █▄  ███    ███ ███   ███   ███   ███          ███        
 ███    ███ ███    ███ ███    ██   ███   ██           ██         
- ███████▀   ▀██████▀   ▀█   ███   █▀   ▄████▀       ▄████▀  :)    
+ ███████▀   ▀██████▀   ▀█   ███   █▀   ▄████▀       ▄████▀  :) 
+ 
+Version : {__version__}  
 """
-    print(Fore.GREEN + c)
+    print(Fore.GREEN + c + Style.RESET_ALL)
 
 def add_passwords(pwds):
     """Add passwords to wordlist"""
@@ -147,7 +149,7 @@ def generate():
 
     else:  # If no file is provided, ask user input
         init(autoreset=True)
-        print(Fore.GREEN + "Fill the differents inputs (case insensitive). Leave blank for unknow fields.\n")
+        print(Fore.BLUE + "Fill the differents inputs (case insensitive). Leave blank for unknow fields.\n")
         plus = Fore.RED + "[+] " + Style.RESET_ALL
         company_names = input(plus + "Enter company/application names (comma separated): ")
         company_names = clear_list(company_names)
