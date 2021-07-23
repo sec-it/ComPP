@@ -1,8 +1,9 @@
 import setuptools
+from ComPP import compp
 
 setuptools.setup(
     name='ComPP',
-    version='1.0.5',
+    version=compp.__version__,
     author="Zeecka",
     packages=["ComPP"],
     scripts=["bin/compp"],
